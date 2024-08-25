@@ -28,3 +28,6 @@ O **Decodificador de Texto** é uma aplicação web simples que permite aos usu�
 
 5. **Clique em "Descriptografar"** para reverter o texto criptografado de volta ao seu estado original.
 ![image](https://github.com/user-attachments/assets/38894ffa-536a-46fb-ba9b-6d9d6dcd43b3)
+
+https://github.com/user-attachments/assets/381cb04a-db73-4b0a-8c80-dad6bffdfc90
+
