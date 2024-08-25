@@ -15,9 +15,9 @@ function varificarCampoResposta() {
 function criptografar() {
     var texto = document.getElementById("texto_digitado").value;
 
-    var texto_criptografado = texto.replace(/a/g, 'ai')
-            .replace(/e/g, 'enter')
+    var texto_criptografado = texto.replace(/e/g, 'enter')
             .replace(/i/g, 'imes')
+            .replace(/a/g, 'ai')
             .replace(/o/g, 'ober')
             .replace(/u/g, 'ufat');
     
@@ -29,9 +29,10 @@ function criptografar() {
 function descriptografar() {
     var texto = document.getElementById("texto_digitado").value;
 
-    var texto_descriptografado = texto.replace(/ai/g, 'a')
+    var texto_descriptografado = texto
             .replace(/enter/g, 'e')
             .replace(/imes/g, 'i')
+            .replace(/ai/g, 'a')
             .replace(/ober/g, 'o')
             .replace(/ufat/g, 'u');
     
