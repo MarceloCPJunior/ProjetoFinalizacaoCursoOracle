@@ -1,9 +1,9 @@
 # Decodificador de Texto
-![image](https://github.com/user-attachments/assets/39c47acd-e648-4767-aeaa-20642f7a260e)
-
 ## Descrição
 
 O **Decodificador de Texto** é uma aplicação web simples que permite aos usuários criptografar e descriptografar texto usando uma cifra básica. O projeto utiliza HTML, CSS e JavaScript para fornecer uma interface de usuário interativa e responsiva.
+
+![image](https://github.com/user-attachments/assets/39c47acd-e648-4767-aeaa-20642f7a260e)
 
 ## Funcionalidades
 
