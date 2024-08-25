@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sub__bloco__1">
+            <img src="./img/logo.png" class="container__logo" />
+        </div>
+        <div class="sub__bloco__2">
+            <div class="container__text__digitado">
+                <textarea id="texto_digitado" class="input__texto" placeholder="Digite seu texto"></textarea>
+                <div class="container__icon">
+                    <img src="./img/icon_exclamacao.png" alt="Icon" class="icon">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+            </div>
+            <div class="container__button">
+                <button class="button button__criptografar" onclick="criptografar()">Criptografar</button>
+                <button class="button button__descriptografar" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </div>
+        <div class="sub__bloco__3">
+            <div id="div_sem_mensagem" class="container__resposta">
+                <img src="./img/sem_resposta.svg">
+                <h1 style="color: black">Nenhuma mensagem encontrada</h1>
+                <p style="color: black">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div id="div_com_mensagem" class="container__resposta">
+                <textarea id="texto_resposta" class="input__texto" disabled="true"></textarea>
+                <button class="button button__copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
