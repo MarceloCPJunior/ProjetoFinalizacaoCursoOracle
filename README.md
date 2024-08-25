@@ -20,14 +20,9 @@ O **Decodificador de Texto** é uma aplicação web simples que permite aos usu�
 ## Como Usar
 
 1. **Digite seu texto** na área de entrada no campo "Digite seu texto".
-![image](https://github.com/user-attachments/assets/6abe0422-e994-4a49-9582-eb80f6804eb9)
-
 3. **Clique em "Criptografar"** para transformar o texto em uma forma criptografada.
 4. **Clique em "Copiar"** para copiar o texto criptografado para a área de transferência.
-![image](https://github.com/user-attachments/assets/6041a4ef-8b8d-472b-8260-cdf40715bee1)
-
 5. **Clique em "Descriptografar"** para reverter o texto criptografado de volta ao seu estado original.
-![image](https://github.com/user-attachments/assets/38894ffa-536a-46fb-ba9b-6d9d6dcd43b3)
 
 https://github.com/user-attachments/assets/381cb04a-db73-4b0a-8c80-dad6bffdfc90
 
